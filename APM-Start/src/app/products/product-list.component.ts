@@ -97,4 +97,8 @@ export class ProductListComponent implements OnInit {
     transform(value:string, character :string ): string{
         return 'asa';
     }
+    onRatingClicked(message:string): void{
+        this.pageTitle='Product List' + message;
+
+    }
 }
